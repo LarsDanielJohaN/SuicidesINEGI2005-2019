@@ -44,7 +44,6 @@ def barCount(data, engine, periods, param):
 
 
 def datTrends(data, engine, location, param):
-# tendency lines for shit
     print("Trends")
     valYears = []
     dates = pd.date_range("2005", periods = 15, freq = "12M")
